@@ -16,8 +16,7 @@ func squareOfSubtraction(a: Double, b : Double) -> Double
   print("result = (a*a) - 2*a*b + b*b")
   print("result = \(a*a ) - \(2*a*b) + \(b*b)")
   print("result = \(result)")
-  return result
-  
+  return result 
 }
 
 func AdditionMultipliedBySubtraction(a: Double, b : Double) -> Double
@@ -26,8 +25,7 @@ func AdditionMultipliedBySubtraction(a: Double, b : Double) -> Double
   print("result = (a*a) - (b*b)")
   print("result = \(a*a ) - \(b*b)")
   print("result = \(result)")
-  return result
-  
+  return result 
 }
 
 func createMenu(myChoice : Double, a : Double, b : Double)
@@ -44,9 +42,8 @@ func createMenu(myChoice : Double, a : Double, b : Double)
     AdditionMultipliedBySubtraction(a:a, b:b)
 
     default:
-    print("ok")
+    print("any case ")
   }
-
 }
 
 /*
@@ -57,6 +54,8 @@ AdditionMultipliedBySubtraction(a : 3, b : 4)*/
 
 createMenu(myChoice : 1 , a : 3 , b : 4)
 
-createMenu(myChoice : 2 , a : 3 , b : 4)
+createMenu(myChoice : 2 , a : 3 , b : 9)
 
-createMenu(myChoice : 3 , a : 3 , b : 4)
+createMenu(myChoice : 3 , a : 9 , b : 4)
+
+createMenu(myChoice : 4 , a : 9 , b : 4)
